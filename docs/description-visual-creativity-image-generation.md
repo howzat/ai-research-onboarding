@@ -109,7 +109,7 @@ You should use Chat GPT or Claude to consume the docs and tell it generate a man
 
 Or you can try a META prompt such as
 
->	I want to create a manual for using midjourney. Using this https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide I need an AI to read them THOROUGHLY and give you a comprehensive and detailed instruction manual . Give me a prompt that will provide me with a high quality output, the output of the prompt should result in a markdown file that I can download, or cut and paste into Notebook LM
+>I want to create a manual for using midjourney. Using this https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide I need an AI to read them THOROUGHLY and give you a comprehensive and detailed instruction manual . Give me a prompt that will provide me with a high quality output, the output of the prompt should result in a markdown file that I can download, or cut and paste into Notebook LM
 
 **Try these resources**
 

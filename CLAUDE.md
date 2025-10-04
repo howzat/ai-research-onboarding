@@ -1,4 +1,48 @@
-# CLAUDE.md
+# Claude Code Session Preferences
+
+**IMPORTANT**: These are the user's explicit preferences. Read this file at the start of every session.
+
+## Commit Message Rules
+
+### ❌ DO NOT ADD:
+- **NO emojis** in commit messages (unless explicitly requested)
+- **NO Claude Code attribution footer** (🤖 Generated with [Claude Code]...)
+- **NO Co-Authored-By: Claude** footer
+
+### ✅ DO ADD:
+- Conventional commit format (feat:, fix:, refactor:, docs:, etc.)
+- Clear, descriptive commit messages
+- Implementation details in commit body
+
+### Rules for Creating Great Commit Messages:
+1. **Limit subject line to 50 characters**
+2. **Capitalize the subject/description line**
+3. **Do not end subject line with a period**
+4. **Separate subject from body with a blank line**
+5. **Wrap body at 72 characters**
+6. **Use body to explain what and why** (not how - code shows how)
+7. **Use imperative mood in subject** (like giving a command)
+    - Good: "Add unit tests for authentication"
+    - Bad: "Added unit tests" or "Adds unit tests"
+
+## Example Correct Commit:
+
+```
+feat: Implement certificate management for CDP
+
+Add CDP-compliant certificate management for MongoDB and HTTP
+clients:
+
+- Scan TRUSTSTORE_* environment variables for custom CAs
+- Load base64-encoded PEM certificates with error handling
+- Create SSLContext combining JVM defaults with CDP certificates
+- Configure MongoDB client with custom SSL for AWS IAM auth
+- Configure RestClient and RestTemplate with custom SSL
+```
+
+Note: Subject is 47 characters, imperative mood, capitalized, no
+period. Body wrapped at 72 characters and explains what/why.
+- Whenever using git commands or gh tool, you MUST remember to apply the git commit rules we've established in CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
@@ -36,6 +80,7 @@ Key frameworks:
 
 ## Key Files
 
+- `CLAUDE.md` - read at the start of each prompt
 - `Initial Prompt - Prompt.md`: Course requirements and high-level design
 - `Module - Foundations Part 1 - Setup & Voice Workflows.md`: Setup, voice workflows, initial AI Fluency sections
 - `Module - Foundations Part 2 - Delegation in Practice.md`: Delegation practice, travel planning tasks
@@ -94,48 +139,3 @@ wc -w "Module - Foundations Part 1 - Setup & Voice Workflows.md"
 - Critical feedback is explicitly requested to improve the course
 
 
-# Claude Code Session Preferences
-
-**IMPORTANT**: These are the user's explicit preferences. Read this file at the start of every session.
-
-## Commit Message Rules
-
-### ❌ DO NOT ADD:
-- **NO emojis** in commit messages (unless explicitly requested)
-- **NO Claude Code attribution footer** (🤖 Generated with [Claude Code]...)
-- **NO Co-Authored-By: Claude** footer
-
-### ✅ DO ADD:
-- Conventional commit format (feat:, fix:, refactor:, docs:, etc.)
-- Clear, descriptive commit messages
-- Implementation details in commit body
-
-### Rules for Creating Great Commit Messages:
-1. **Limit subject line to 50 characters**
-2. **Capitalize the subject/description line**
-3. **Do not end subject line with a period**
-4. **Separate subject from body with a blank line**
-5. **Wrap body at 72 characters**
-6. **Use body to explain what and why** (not how - code shows how)
-7. **Use imperative mood in subject** (like giving a command)
-    - Good: "Add unit tests for authentication"
-    - Bad: "Added unit tests" or "Adds unit tests"
-
-## Example Correct Commit:
-
-```
-feat: Implement certificate management for CDP
-
-Add CDP-compliant certificate management for MongoDB and HTTP
-clients:
-
-- Scan TRUSTSTORE_* environment variables for custom CAs
-- Load base64-encoded PEM certificates with error handling
-- Create SSLContext combining JVM defaults with CDP certificates
-- Configure MongoDB client with custom SSL for AWS IAM auth
-- Configure RestClient and RestTemplate with custom SSL
-```
-
-Note: Subject is 47 characters, imperative mood, capitalized, no
-period. Body wrapped at 72 characters and explains what/why.
-- Whenever using git commands or gh tool, you MUST remember to apply the git commit rules we've established in CLAUDE.md
