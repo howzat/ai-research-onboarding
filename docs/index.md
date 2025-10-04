@@ -15,11 +15,11 @@ This course uses a flexible module-based approach with **NotebookLM** as the cen
 ## Course Structure
 
 **Foundation Track** (Complete first, in order):
-- [Foundations Part 1 - Setup & Voice Workflows](Module%20-%20Foundations%20Part%201%20-%20Setup%20&%20Voice%20Workflows.html)
-- [Foundations Part 2 - Delegation in Practice](Module%20-%20Foundations%20Part%202%20-%20Delegation%20in%20Practice.html)
+- [Foundations Part 1 - Setup & Voice Workflows](foundations-part-1.html)
+- [Foundations Part 2 - Delegation in Practice](foundations-part-2.html)
 
 **Additional Modules**:
-- [Full Course Design & All Modules](Onboarding%20Research%20and%20Orientation%20(AI).html)
+- [Full Course Design & All Modules](full-course-design.html)
 
 ## Key Frameworks
 
@@ -37,4 +37,4 @@ This course uses a flexible module-based approach with **NotebookLM** as the cen
 
 ---
 
-Ready to begin? Start with [Foundations Part 1](Module%20-%20Foundations%20Part%201%20-%20Setup%20&%20Voice%20Workflows.html).
+Ready to begin? Start with [Foundations Part 1](foundations-part-1.html).
