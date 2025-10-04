@@ -1,0 +1,16 @@
+# Site settings
+title: AI Research Onboarding
+description: A mobile-first introduction to AI tools for research assistants
+baseurl: "/ai-research-onboarding" # Update this to match your repository name
+url: "https://howzat.github.io"
+
+# Theme
+remote_theme: just-the-docs/just-the-docs
+
+# Enable search
+search_enabled: true
+
+# Aux links (optional - top right corner links)
+aux_links:
+  "View on GitHub":
+    - "https://github.com/howzat/ai-research-onboarding"
