@@ -50,7 +50,7 @@ When modifying course content:
 2. **NotebookLM integration**: Every week requires adding sources, using Study Guides, and Q&A features
 3. **Voice workflows**: Prioritize voice input methods (ChatGPT voice, iOS Dictation, Otter)
 4. **Clear task completion**: Each task needs explicit "Definition of Done" criteria
-5. **Time estimates**: Include realistic time estimates for mobile users
+5. **NO time estimates**: Never include time estimates for tasks - they vary significantly based on user context, mobile connection, prior knowledge, and work style. Students work at their own pace.
 6. **Critical feedback**: Week modules should include reflection/feedback sections
 
 ## Course Architecture
@@ -138,3 +138,4 @@ clients:
 
 Note: Subject is 47 characters, imperative mood, capitalized, no
 period. Body wrapped at 72 characters and explains what/why.
+- Whenever using git commands or gh tool, you MUST remember to apply the git commit rules we've established in CLAUDE.md

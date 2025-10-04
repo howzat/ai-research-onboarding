@@ -70,19 +70,12 @@ Before diving into specific lessons, it’s important to give the student a **la
 
   * **Perplexity AI:** A chatbot that **searches the web** for you and provides answers with cited sources. Useful for research questions where up-to-date or factual info is needed. (No login required for basic use; has an iOS app). We will use this to practice verifying information and finding references, addressing *Discernment* (checking AI output) by seeing sources .
 
-  * **Notion AI:** Built into Notion (a note-taking app). It can **help write or summarize within your notes**. Great for tasks like “summarize my meeting notes” or “improve this paragraph’s wording” directly in the context of your notes/documents. We plan to use Notion AI when the student is compiling her research or final write-ups in Notion.
-
-  * **Other text tools:** Depending on interest, we might briefly mention Bing Chat (similar to ChatGPT with web search), or specialized tools like **ChatGPT’s “Study Mode”** which OpenAI introduced to encourage learning dialogues, though we’ll primarily focus on the ones above.
-
 * **Image Generation AIs:** Tools that create images from text prompts.
 
   * **MidJourney:** A popular AI image generator known for high-quality, artistic images. It’s used via Discord (the student will need to **sign up for Discord and the MidJourney bot**, and a subscription \~$10/month, since free trial is limited). We will have a creative lesson where she **prompts MidJourney to create an image** (e.g. an illustration for a project or just something fun) and iterates on the prompt to get a desired style.
 
-  * **DALL·E 3:** OpenAI’s image model, now integrated with ChatGPT. If the student has ChatGPT (Plus) on mobile, she can simply ask for an image and get one, or use Bing’s Image Creator for free (which also uses DALL·E 3). We might compare results from DALL·E vs MidJourney or use DALL·E if she can’t pay for MidJourney. *Task example:* “Use ChatGPT to generate an image of X and refine it.”
-
-  * **Stable Diffusion apps:** (Optional mention) There are apps like Leonardo.ai or NightCafe that use Stable Diffusion (some allow free credits). But to keep it simple, we’ll focus on MidJourney and DALL·E as they are currently state-of-the-art for quality.
-
-  * **Mobile use:** Both MidJourney and DALL·E can be used on mobile (MidJourney via Discord app, Bing/DALL·E via browser or Bing app). We’ll ensure instructions are mobile-friendly.
+  
+  * **Mobile use:** Both MidJourney, Chat GPT and Leonardo can be used on mobile. We’ll ensure instructions are mobile-friendly.
 
 * **Video Generation AIs:**
 

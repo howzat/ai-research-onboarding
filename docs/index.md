@@ -18,6 +18,9 @@ This course uses a flexible module-based approach with **NotebookLM** as the cen
 - [Foundations Part 1 - Setup & Voice Workflows](foundations-part-1.html)
 - [Foundations Part 2 - Delegation in Practice](foundations-part-2.html)
 
+**Core Skills Track** (Complete after Foundation, any order):
+- [Description - Visual Creativity & Image Generation](description-visual-creativity-image-generation.html)
+
 **Additional Modules**:
 - [Full Course Design & All Modules](full-course-design.html)
 
