@@ -96,7 +96,7 @@ We use NotebookLM because it acts as your central, source-grounded research part
 1. **Download and add Foundation modules** to your NotebookLM notebook:
    - Add this current document: "Module - Foundations Part 1 - Setup & Voice Workflows.md"
    - Add the next module: "Module - Foundations Part 2 - Delegation in Practice.md"
-   - You can copy-paste the content or upload the files directly
+   - You can copy-paste the content or upload the files directly by downloading them from here https://github.com/howzat/ai-research-onboarding
 
 **Step 2: Generate Your Personal Course Video**
 1. Once both foundation modules are added as sources
@@ -164,7 +164,7 @@ Click on the citations to see where NotebookLM pulled the information from. This
 Practice voice capture across tools and get the output into NotebookLM.
 
 **Step 1: Try voice with each tool**
-1. ChatGPT app: tap the headphone icon and ask 1 quick question e.g.
+1. ChatGPT app: tap the voice icon and ask 1 quick question e.g.
 	1. e.g. "Most interesting/horrible/scary local historical fact near me?"
 	2. Where is a great cheap place for us to eat near my location (you might need to say where you are)
 	3. Tell the app where you are, and get it to plan you a night out with something to eat and a nice walk - get it to ask you questions about what it should include and prioritise
@@ -181,7 +181,7 @@ Practice voice capture across tools and get the output into NotebookLM.
   - Then there are several options to share with Notebook LM
   - **Share the voice note directly**
 	  - **Important:** Give the note a meaningful title, this will be what source will end up being called in Notebook LM
-	  - Hit the ... on the note and select the share icon, you'll need to find Notebook LM in the share options to start the share to Notebook LM
+	  - Hit the `...` on the note and select the share icon, you'll need to find Notebook LM in the share options to start the share to Notebook LM
 	  - When Notebook LM opens, choose the Notebook (The AI Onboarding Research Notebook)
 	  - The audio should appear in Notebook LM
   - **Use the Transcript**
